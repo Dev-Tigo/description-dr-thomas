@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Thomas - Personagem RPG</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #181818 0%, #232323 100%);
+      color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #2c2c2c;
+      border-radius: 10px;
+      box-shadow: 0 0 20px #0008;
+      padding: 32px;
+    }
+    h1, h2, h3 {
+      color: #e0b060;
+      margin-top: 0;
+    }
+    .imagem {
+      text-align: center;
+      margin-bottom: 24px;
+    }
+    .imagem img {
+      max-width: 220px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #0006;
+    }
+    ul, li {
+      margin-bottom: 8px;
+    }
+    .atributos, .pericias, .equipamento {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      margin-bottom: 24px;
+    }
+    .atributos ul, .pericias ul, .equipamento ul {
+      list-style: none;
+      padding: 0;
+    }
+    .section {
+      margin-bottom: 32px;
+    }
+    .movimentos {
+      background: #232323;
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 24px;
+    }
+    .movimentos h3 {
+      margin-top: 0;
+      color: #e0b060;
+    }
+    .destaque {
+      color: #e0b060;
+      font-weight: bold;
+    }
+    .descricao {
+      margin-bottom: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="imagem">
+      <!-- Coloque a imagem do personagem na pasta 'imagem' e atualize o src abaixo -->
+  <img src="../imagem/Dr.Thomas.jpg" alt="Dr. Thomas">
+    </div>
+    <h1>Dr. Thomas</h1>
+    <div class="section">
+      <h2>Resumo do Personagem</h2>
+      <ul>
+        <li><span class="destaque">Classe:</span> O Racional</li>
+        <li><span class="destaque">Caminho Mágico:</span> Lucerna</li>
+        <li><span class="destaque">Idade:</span> 30 anos</li>
+        <li><span class="destaque">Aparência:</span> Barba, atlético, cicatrizes, altura: 1.75m</li>
+        <li><span class="destaque">Conceito:</span> Médico de guerra traumatizado que usa seu treinamento científico para entender e combater o sobrenatural, vendo-o como uma doença a ser erradicada.</li>
+        <li><span class="destaque">Motivação:</span> "Nunca Mais". Impedir que outros sofram o mesmo destino de seus amigos e pacientes.</li>
+        <li><span class="destaque">Conflito:</span> Luta entre seu juramento de curar e a necessidade de destruir criaturas sobrenaturais.</li>
+        <li><span class="destaque">Segredo:</span> Se culpa pela morte de todos na casa. "Se eu tivesse chegado mais cedo... se eu fosse mais rápido..."</li>
+        <li><span class="destaque">Ponto de Vulnerabilidade:</span> Sobreviventes inocentes. Arrisca-se irracionalmente para salvar civis, revivendo seu fracasso passado.</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>Descrição</h2>
+      <div class="descricao">
+        Ex-médico militar, experiente em zonas de guerra e acostumado ao caos do campo de batalha. Durante uma operação de resgate, foi enviado para socorrer sobreviventes, incluindo amigos de infância. Após confronto brutal, encontrou todos mortos por uma criatura sobrenatural. Um caçador chamado Silas o salvou e o levou à organização secreta Vigília, dedicada a combater ameaças sobrenaturais.
+      </div>
+    </div>
+    <div class="section">
+      <h2>Trauma</h2>
+      <ul>
+        <li><span class="destaque">O Pesadelo:</span> Encontrou amigos congelados em terror, sem ferimentos, olhos vitrificados. A criatura deixou apenas vazio e silêncio sobrenatural.</li>
+        <li><span class="destaque">O Salvador:</span> Silas, caçador experiente, usou rituais para conter a energia da criatura. Encontrou Thomas em estado catatônico, agarrado ao cadáver do amigo Mateus.</li>
+        <li><span class="destaque">A Recuperação:</span> Thomas passou semanas se recuperando do trauma psíquico, aprendendo sobre o Caminho da Umbra e devoradores de almas.</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>Motivação e Conflito Interno</h2>
+      <ul>
+        <li><span class="destaque">Motivação Primária:</span> Inicialmente vingança, depois dever pessoal: garantir que ninguém mais sofra o mesmo.</li>
+        <li><span class="destaque">Atração pelo Sobrenatural:</span> Necessidade patológica de compreensão. Vê o sobrenatural como doença a ser estudada e curada.</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>Classe: O Racional</h2>
+      <ul>
+        <li><span class="destaque">Visão geral:</span> Cético, mente lógica, analisa mistérios e vê detalhes ignorados por outros.</li>
+        <li><span class="destaque">Estilo de jogo:</span> Investigativo e tático. Brilha estudando pistas, criando teorias e equipamentos.</li>
+        <li><span class="destaque">Motivação dramática:</span> Cientista, policial ou médico que busca salvar vidas pela lógica.</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>Movimentos</h2>
+      <div class="movimentos">
+        <h3>Nunca Desiste (CON)</h3>
+        <p>Sobrevive mesmo à beira da morte. Permite última ação ao chegar a 0 de Vida.</p>
+        <ul>
+          <li><span class="destaque">Sucesso:</span> Ação completa antes de cair inconsciente.</li>
+          <li><span class="destaque">Parcial:</span> Última ação menor, depois cai.</li>
+          <li><span class="destaque">Falha:</span> Cai imediatamente.</li>
+        </ul>
+      </div>
+      <div class="movimentos">
+        <h3>Análise Forense (INT)</h3>
+        <p>Pode fazer pergunta extra ao Mestre ao analisar pistas/amostras.</p>
+      </div>
+      <div class="movimentos">
+        <h3>Kit de Especialista (INT)</h3>
+        <p>Começa com kit especializado à escolha (primeiros socorros, lockpicks, armas exóticas).</p>
+      </div>
+    </div>
+    <div class="section atributos">
+      <div>
+        <h2>Atributos</h2>
+        <ul>
+          <li>+2 Inteligência (INT)</li>
+          <li>+1 Percepção (PER)</li>
+          <li>0 Constituição (CON)</li>
+          <li>0 Força (FOR)</li>
+          <li>-1 Carisma (CAR)</li>
+          <li>-1 Destreza (DES)</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Perícias</h2>
+        <ul>
+          <li>Armas de fogo</li>
+          <li>Medicina</li>
+          <li>Investigação</li>
+        </ul>
+      </div>
+    </div>
+    <div class="section">
+      <h2>Caminho Mágico: Lucerna</h2>
+      <p><span class="destaque">Olhar da Verdade:</span> Enxerga detalhes ocultos, falhas na realidade e aspectos monstruosos.</p>
+    </div>
+    <div class="section equipamento">
+      <div>
+        <h2>Equipamento</h2>
+        <ul>
+          <li>Maleta médica adaptada:
+            <ul>
+              <li>2 Soro regenerativo (Cura 2d10+4, -1 PER na próxima ação)</li>
+              <li>1 Bandagens com runas de contenção (Cura 2d8 PV, remove sangramento)</li>
+              <li>Lanterna tática com filtro infravermelho</li>
+              <li>Diário de anotações sobre criaturas</li>
+              <li>Adrenalina em autoinjetor</li>
+              <li>Spray hemostático</li>
+              <li>Kit de desinfecção de emergência</li>
+              <li>Morfina (ou equivalente mágico)</li>
+              <li>Ferramenta multifuncional</li>
+              <li>Cartucho de fumaça</li>
+              <li>Seringa de prata</li>
+              <li>Veneno paralizante</li>
+              <li>Distintivo de ex-militar</li>
+            </ul>
+          </li>
+          <li>Pistola</li>
+          <li>Escopeta</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
